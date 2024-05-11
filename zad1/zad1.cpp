@@ -11,10 +11,10 @@ int main() {
     int num1, num2;
     inputFile >> num1 >> num2;
 
-    int result = num1 ^ num2; // XOR операция
+    int result = num1 ^ num2;
 
     std::cout << "The result from the XOR operation is: " << result << std::endl;
 
-    inputFile.close(); // Затваряме файла
+    inputFile.close();
     return 0;
 }
